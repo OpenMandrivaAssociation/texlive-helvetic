@@ -1,12 +1,12 @@
-# revision 28007
+# revision 21993
 # category Package
 # catalog-ctan /fonts/urw/base35
-# catalog-date 2012-06-06 22:57:48 +0200
+# catalog-date 2011-03-01 21:42:17 +0100
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-helvetic
-Version:	20120606
-Release:	1
+Version:	20110301
+Release:	2
 Summary:	URW "Base 35" font pack for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/urw/base35
@@ -216,6 +216,8 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %{_texmfdistdir}/fonts/type1/urw/helvetic/uhvbo8a.pfm
 %{_texmfdistdir}/fonts/type1/urw/helvetic/uhvbo8ac.pfb
 %{_texmfdistdir}/fonts/type1/urw/helvetic/uhvbo8ac.pfm
+%{_texmfdistdir}/fonts/type1/urw/helvetic/uhvboc8a.pfb
+%{_texmfdistdir}/fonts/type1/urw/helvetic/uhvbrc8a.pfb
 %{_texmfdistdir}/fonts/type1/urw/helvetic/uhvr8a-105.pfb
 %{_texmfdistdir}/fonts/type1/urw/helvetic/uhvr8a.pfb
 %{_texmfdistdir}/fonts/type1/urw/helvetic/uhvr8a.pfm
@@ -226,6 +228,8 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %{_texmfdistdir}/fonts/type1/urw/helvetic/uhvro8a.pfm
 %{_texmfdistdir}/fonts/type1/urw/helvetic/uhvro8ac.pfb
 %{_texmfdistdir}/fonts/type1/urw/helvetic/uhvro8ac.pfm
+%{_texmfdistdir}/fonts/type1/urw/helvetic/uhvroc8a.pfb
+%{_texmfdistdir}/fonts/type1/urw/helvetic/uhvrrc8a.pfb
 %{_texmfdistdir}/fonts/vf/adobe/helvetic/phvb.vf
 %{_texmfdistdir}/fonts/vf/adobe/helvetic/phvb7t.vf
 %{_texmfdistdir}/fonts/vf/adobe/helvetic/phvb7tn.vf
@@ -345,3 +349,17 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips fonts tex %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110301-2
++ Revision: 752538
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110301-1
++ Revision: 718607
+- texlive-helvetic
+- texlive-helvetic
+- texlive-helvetic
+- texlive-helvetic
+
