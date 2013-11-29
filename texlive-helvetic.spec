@@ -1,12 +1,12 @@
-# revision 21993
+# revision 31835
 # category Package
 # catalog-ctan /fonts/urw/base35
-# catalog-date 2011-03-01 21:42:17 +0100
+# catalog-date 2012-06-06 22:57:48 +0200
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-helvetic
-Version:	20110301
-Release:	2
+Version:	20120606
+Release:	1
 Summary:	URW "Base 35" font pack for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/urw/base35
@@ -108,26 +108,6 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %{_texmfdistdir}/fonts/tfm/adobe/helvetic/phvro8tn.tfm
 %{_texmfdistdir}/fonts/tfm/adobe/helvetic/phvron.tfm
 %{_texmfdistdir}/fonts/tfm/adobe/helvetic/phvrrn.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/phvb8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/phvbc8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/phvbn8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/phvbnc8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/phvbo8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/phvbon8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/phvr8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/phvrc8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/phvrn8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/phvrnc8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/phvro8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/phvron8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/rphvb.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/rphvbo.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/rphvbon.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/rphvbrn.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/rphvr.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/rphvro.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/rphvron.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/helvetic/rphvrrn.tfm
 %{_texmfdistdir}/fonts/tfm/monotype/helvetic/arb10u.tfm
 %{_texmfdistdir}/fonts/tfm/monotype/helvetic/arb2n.tfm
 %{_texmfdistdir}/fonts/tfm/monotype/helvetic/arb7j.tfm
@@ -216,8 +196,6 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %{_texmfdistdir}/fonts/type1/urw/helvetic/uhvbo8a.pfm
 %{_texmfdistdir}/fonts/type1/urw/helvetic/uhvbo8ac.pfb
 %{_texmfdistdir}/fonts/type1/urw/helvetic/uhvbo8ac.pfm
-%{_texmfdistdir}/fonts/type1/urw/helvetic/uhvboc8a.pfb
-%{_texmfdistdir}/fonts/type1/urw/helvetic/uhvbrc8a.pfb
 %{_texmfdistdir}/fonts/type1/urw/helvetic/uhvr8a-105.pfb
 %{_texmfdistdir}/fonts/type1/urw/helvetic/uhvr8a.pfb
 %{_texmfdistdir}/fonts/type1/urw/helvetic/uhvr8a.pfm
@@ -228,8 +206,6 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %{_texmfdistdir}/fonts/type1/urw/helvetic/uhvro8a.pfm
 %{_texmfdistdir}/fonts/type1/urw/helvetic/uhvro8ac.pfb
 %{_texmfdistdir}/fonts/type1/urw/helvetic/uhvro8ac.pfm
-%{_texmfdistdir}/fonts/type1/urw/helvetic/uhvroc8a.pfb
-%{_texmfdistdir}/fonts/type1/urw/helvetic/uhvrrc8a.pfb
 %{_texmfdistdir}/fonts/vf/adobe/helvetic/phvb.vf
 %{_texmfdistdir}/fonts/vf/adobe/helvetic/phvb7t.vf
 %{_texmfdistdir}/fonts/vf/adobe/helvetic/phvb7tn.vf
@@ -272,18 +248,6 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %{_texmfdistdir}/fonts/vf/adobe/helvetic/phvro8tn.vf
 %{_texmfdistdir}/fonts/vf/adobe/helvetic/phvron.vf
 %{_texmfdistdir}/fonts/vf/adobe/helvetic/phvrrn.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/helvetic/phvb8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/helvetic/phvbc8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/helvetic/phvbn8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/helvetic/phvbnc8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/helvetic/phvbo8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/helvetic/phvbon8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/helvetic/phvr8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/helvetic/phvrc8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/helvetic/phvrn8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/helvetic/phvrnc8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/helvetic/phvro8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/helvetic/phvron8z.vf
 %{_texmfdistdir}/fonts/vf/monotype/helvetic/mhvb.vf
 %{_texmfdistdir}/fonts/vf/monotype/helvetic/mhvb8t.vf
 %{_texmfdistdir}/fonts/vf/monotype/helvetic/mhvbi.vf
@@ -349,17 +313,3 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips fonts tex %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110301-2
-+ Revision: 752538
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110301-1
-+ Revision: 718607
-- texlive-helvetic
-- texlive-helvetic
-- texlive-helvetic
-- texlive-helvetic
-
